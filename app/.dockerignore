@@ -1,0 +1,15 @@
+Dockerfile
+.dockerignore
+
+# Exclude Python bytecode files
+*.pyc
+*.pyo
+__pycache__
+
+# Exclude virtual environment
+.venv/
+
+# Exclude test caches
+.pytest_cache/
+.mypy_cache/
+
